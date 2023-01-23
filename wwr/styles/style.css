@@ -20,3 +20,15 @@ main section {
 #background {
   height: 725px;
 }
+footer p {
+  padding: 25px;
+}
+h1 {
+  margin: 50px 0;
+}
+a {
+  padding: 10px;
+  color: white;
+  margin: 40px;
+  line-height: 1.5em;
+}
