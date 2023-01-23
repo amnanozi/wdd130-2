@@ -30,12 +30,16 @@ Fonts are separated by a & */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+.home-title {
+  color: rgb(14, 221, 14);
+}
 body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: lightblue;
 }
 img {
   display: block;
@@ -49,6 +53,20 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   text-align: center;
 }
+.book:hover, .join:hover {
+  color: rgb(218, 159, 159);
+}
+
+.msg p {
+  color:  rgb(115, 211, 115);
+}
+.msg h2 {
+  color: rgb(133, 228, 133);
+}
+
+h4 {
+  color: rgb(31, 146, 31);
+}
 hr {
   height: 3px;
   margin: 35px 0;
@@ -58,7 +76,7 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: #8d9440;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -112,13 +130,17 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  color: green;
+  text-decoration: none;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: rgb(184, 230, 184) ;
+  color: rgb(218, 52, 52);
+
 }
 .sitemap {
   display: grid;
@@ -162,4 +184,46 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.book, .join {
+  background-color: #9aa597;
+  color: green;
+  text-decoration: none;
+}
+.book:hover, .join {
+background-color:#2E4A62 ;
+}
+#background {
+  background-color: #0F4C81;
+
+}
+.msg {
+  background-color: #e8b5ce;
+  
+}
+footer {
+  background-color: #bfd833;
+  color: rgb(228, 42, 42);
+}
+footer a {
+  color: green;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(168, 148, 148);
+}
+.logo {
+  width: 80px;
+}
+.icon {
+  width: 80px;
+}
+#hero-img {
+  width: 100%;
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
 }
