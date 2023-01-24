@@ -32,11 +32,14 @@ Fonts are separated by a & */
 
 .home-title {
   color: rgb(14, 221, 14);
+  font-family: 'poppins', 'arial', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 body {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   text-align: center;
   background-color: lightblue;
@@ -52,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 .book:hover, .join:hover {
   color: rgb(218, 159, 159);
@@ -59,6 +63,7 @@ h2 {
 
 .msg p {
   color:  rgb(115, 211, 115);
+  padding-bottom: 15px;
 }
 .msg h2 {
   color: rgb(133, 228, 133);
@@ -129,7 +134,7 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
   color: green;
   text-decoration: none;
 }
@@ -189,6 +194,9 @@ nav a:hover {
   background-color: #9aa597;
   color: green;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover, .join {
 background-color:#2E4A62 ;
@@ -199,11 +207,16 @@ background-color:#2E4A62 ;
 }
 .msg {
   background-color: #e8b5ce;
+  line-height: 1.5em;
+  padding: 35px;
   
 }
 footer {
   background-color: #bfd833;
   color: rgb(228, 42, 42);
+  padding: 25px 50px;
+  margin-top: 200px;
+  font-family: 'poppins', 'arial', sans-serif;
 }
 footer a {
   color: green;
@@ -217,6 +230,7 @@ footer a:hover {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 #hero-img {
   width: 100%;
@@ -226,4 +240,19 @@ footer p {
 }
 footer p a:hover {
   text-decoration: underline;
+}
+#logo-link {
+  padding-top: 5px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+} 
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
 }
