@@ -1,0 +1,130 @@
+.body {
+  background-color: black;
+}
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.box1 {
+  width: 50%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex-grow: 1 ;
+  margin: 10px;
+  padding: 5px;
+  height: 100px;
+  border-radius: 10px ;
+  border: white 2px solid;
+  
+}
+.box2 {
+  height: 100px;
+  width: 50%;
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px ;
+  border: white 2px solid;
+}
+.box3 {
+  width: 50%;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  flex-basis: 400px;
+  border-radius: 10px ;
+  border: white 2px solid;
+  
+}
+.box4 {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px ;
+  border: white 2px solid;
+  
+}
+.box5 {
+  width: 50% ;
+  height: 100px;
+  background-color: violet;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  flex-basis: 400px;
+  border-radius: 10px ;
+  border: white 2px solid;
+  
+  
+}
+.box6 {
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  flex-grow: 1;
+  border-radius: 10px ;
+  border: white 2px solid;
+}
+.box7 {
+  width: 50%;
+  height: 100px;
+  background-color: olive;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px ;
+  border: white 2px solid;
+  
+}
+.box8 {
+  width: 50%;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  flex-basis: 400px;
+  border-radius: 10px ;
+  border: white 2px solid;
+  
+  
+}
+
+.box9 {
+  width: 100%;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  flex-grow: 1;
+  border-radius: 10px ;
+  border: white 2px solid;
+  
+}
+.linebreak {
+  background-color: darkgray;
+  height: 3px;
+  flex-basis: 100%;
+}
